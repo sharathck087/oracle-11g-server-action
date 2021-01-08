@@ -4,9 +4,9 @@
 
 This [GitHub Action](https://github.com/features/actions) sets up a Oracle database server in Docker container.
 
-Based on [Oracle 11gR2 image on dockerhub](https://hub.docker.com/r/oracleinanutshell/oracle-xe-11g), which is built on ubuntu 18.04 . There're very limited options we could modify on startup for the original image , so that this action could only be suitable for basic testing.
+Based on [Oracle 11gR2 image on dockerhub](https://hub.docker.com/r/oracleinanutshell/oracle-xe-11g), which is built on ubuntu 18.04 . There're very limited options we could modify on startup of the original image , so that this action could only be suitable for basic testing.
 
-It should be noted that this action sets up Oracle db server only , you must set up a Oracle client yourself as well in order to access to the server. For further information you can check out [this repo](https://github.com/GoodManWEN/oracle-client-action.git) as example
+It should be noted that this action sets up Oracle db server only , you must set up a Oracle client yourself as well in order to get access to the server. For further information you can check out [this repo](https://github.com/GoodManWEN/oracle-client-action.git) as example
 
 It is based on the Docker container and is limited by Github Actions, which contains only Linux now. Therefore it does not work in Mac OS and Windows environment.
 
