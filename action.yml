@@ -1,5 +1,5 @@
-name: 'Setup Oracle server'
-description: 'Setup a Oracle 11gR2 database server'
+name: 'Setup Oracle 11g server'
+description: 'Setup a Oracle 11gR2 database server for testing'
 author: 'WEN'
 branding:
   icon: 'database'
